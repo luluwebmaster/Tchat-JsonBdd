@@ -1,0 +1,130 @@
+body, html
+{
+	margin:0px;
+	padding:0px;
+	max-height:100%;
+	height:100%;
+	width:100%;
+}
+.tchat
+{
+	height:100%;
+	width:100%;
+}
+.t-msgs
+{
+	min-height:90%;
+	max-height:90%;
+	width:100%;
+	overflow:auto;
+}
+.tm-msg
+{
+	padding:10px;
+	background-color:#2ecc71;
+	margin-top:2px;
+	margin-bottom:2px;
+}
+.tmm-username
+{
+	display:inline-block;
+	padding:5px;
+	background-color:#9b59b6;
+	margin-right:10px;
+	color:white;
+	cursor:pointer;
+}
+.tmm-texte
+{
+	display:inline;
+	line-height:30px;
+	color:#2c3e50;
+}
+.t-post
+{
+	height:10%;
+}
+.t-post form, .t-post input
+{
+	height:100%;
+}
+.t-post input
+{
+	font-size:1.2vw;
+}
+.tp-msg
+{
+	width:80%;
+	display:inline-block;
+	margin:0px;
+	vertical-align:top;
+}
+.tp-submit, .tp-clear
+{
+	width:10%;
+	display:inline-block;
+	margin:0px;
+	vertical-align:top;
+}
+.t-connect
+{
+	text-align:center;
+	position:fixed;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	background-color:#fbfcfc;
+}
+.tc-enter, .tc-username
+{
+	width:30%;
+	display:inline-block;
+}
+.tc-info
+{
+	width:30%;
+	display:inline-block;
+	text-align:left;
+}
+.lu-user
+{
+	display:none;
+	position:fixed;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	height:100%;
+	width:100%;
+	background-color:rgba(44, 62, 80,0.8);
+}
+.luu-block
+{
+	background-color:white;
+	width:60%;
+	height:60%;
+	display:inline-block;
+	position:absolute;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	margin:auto;
+	overflow:auto;
+}
+.luu-username
+{
+	font-size:25px;
+	padding:10px;
+}
+.luu-uuid, .luu-nb_msg, .panel-warning, .luu-register_heure
+{
+	display:inline-block;
+	width:48%;
+	margin:1%;
+}
+.listUsername
+{
+	display:none;
+}
